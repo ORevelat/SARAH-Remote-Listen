@@ -1,0 +1,13 @@
+{
+  "name": "remotesarah",
+  "version": "0.1.0",
+  "description": "Launch and handle listen sarah component throught a simple http server",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Olivier Revelat",
+  "dependencies": {
+  }
+}

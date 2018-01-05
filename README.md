@@ -6,7 +6,7 @@ Simple serveur http permettant d'exécuter listen.exe de SARAH via une requetete
 
 Node pour la partie Node RED permettant de déployer une brique SARAH Remote
 
-Basé sur win-listen-remote de @JpEncausse/VISEO - SarahV5\viseo-bot-framework\node_modules\node-red-contrib-viseo-sarah\win-listen
+Basé sur win-listen de @JpEncausse/VISEO - SarahV5\viseo-bot-framework\node_modules\node-red-contrib-viseo-sarah\win-listen
 
 # Requirements
 

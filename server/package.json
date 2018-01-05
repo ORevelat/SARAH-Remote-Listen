@@ -9,5 +9,6 @@
   },
   "author": "Olivier Revelat",
   "dependencies": {
+    "tree-kill": "latest"
   }
 }

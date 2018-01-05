@@ -1,0 +1,51 @@
+<script type="text/javascript">
+    RED.nodes.registerType('win-listen-remote-config',{
+        category: 'config',
+        defaults: {
+            name:       { value: undefined },
+            remoteip:    { value: undefined },
+            remoteport:    { value: undefined },
+            language:   { value: undefined },
+            confidence: { value: undefined },
+            recognizer: { value: undefined },
+            hotword:    { value: undefined },
+            grammar:    { value: undefined }
+        },
+        label: function() { return this.name || "SARAH config"; }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="win-listen-remote-config">
+    <div class="form-row">
+        <label for="node-config-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-config-input-name" placeholder="">
+    </div>
+    <div class="form-row">
+        <label for="node-config-input-confidence"><i class="icon-tag"></i> Confidence</label>
+        <input type="text" id="node-config-input-confidence" placeholder="0.7">
+    </div>
+    <div class="form-row">
+        <label for="node-config-input-language"><i class="icon-tag"></i> Language</label>
+        <input type="text" id="node-config-input-language" placeholder="fr-FR">
+    </div>
+    <div class="form-row">
+        <label for="node-config-input-hotword"><i class="icon-tag"></i> Hotword</label>
+        <input type="text" id="node-config-input-hotword" placeholder="SARAH">
+    </div>
+    <div class="form-row">
+        <label for="node-config-input-process"><i class="icon-tag"></i> Remote IP</label>
+        <input type="text" id="node-config-input-remoteip" placeholder="127.0.0.1">
+    </div>
+    <div class="form-row">
+        <label for="node-config-input-process"><i class="icon-tag"></i> Remote Port</label>
+        <input type="text" id="node-config-input-remoteport" placeholder="10001">
+    </div>
+    <div class="form-row">
+        <label for="node-config-input-recognizer"><i class="icon-tag"></i> Recognizer</label>
+        <input type="text" id="node-config-input-recognizer" placeholder="">
+    </div>
+    <div class="form-row">
+        <label for="node-input-grammar"><i class="icon-tag"></i> Grammar</label>
+        <input type="text" id="node-input-grammar" placeholder="data/grammar">
+    </div>
+</script>

@@ -1,3 +1,7 @@
-# Command Server
+# Server
 
-Simple serveur http permettant d'exécuter listen.exe de SARAH
+Simple serveur http permettant d'exécuter listen.exe de SARAH via une requetete http
+
+# Win-Listen-Remote
+
+Node pour la partie Node RED permettant de déployer une brique SARAH Remote
